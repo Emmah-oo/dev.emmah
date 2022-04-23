@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Dev.Emmah</title>
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="container">
+        <nav>
+          <div class="logo">
+            <h2>Dev.Emmah</h1>
+          </div>
+          <ul class="nav-links">
+            <li><a href="#showcase">Home</a></li>
+            <li><a href="#card-1">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#about">About Me</a></li>
+            <a href="#contact"
+              ><button class="btn" id="nav-btn">Contact</button></a
+            >
+          </ul>
+          <a href="#contact"><button class="btn" id="btn">Contact</button></a>
+          <div class="burger">
+            <div class="line-1 line"></div>
+            <div class="line-2 line"></div>
+            <div class="line-3 line"></div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <section id="showcase">
+      <div class="container grid">
+        <div class="showcase-text">
+          <h1>
+           <span class="text">Hello,</span>  <br />
+           <span class="text">I'm Emmanuel Ochonogor</span> <br />
+           <span class="text">Frontend Web developer</span> 
+          </h1>
+          <div class="contact">
+            <a href="#portfolio">
+              <button class="cta cta-1">View Work</button>
+            </a>
+            <a href="#contact">
+              <button class="cta cta-2">Hire Me!</button>
+            </a>
+          </div>
+          <!-- <h1>Find Me On</h1> -->
+          <div class="social-links">
+            <a href="https://twitter.com/dev_emmah"
+              ><i class="bx bxl-twitter bx-burst-hover"></i
+            ></a>
+            <a href="https://www.instagram.com/emmah_oo/"
+              ><i class="bx bxl-instagram bx-burst-hover"></i
+            ></a>
+            <a href="https://github.com/Emmah-oo"
+              ><i class="bx bxl-github bx-burst-hover"></i
+            ></a>
+            <a href="https://www.linkedin.com/in/emma-ochonogor-a25113234/">
+              <i class="bx bxl-linkedin-square bx-burst-hover"></i>
+            </a>
+          </div>
+        </div>
+
+        <div class="showcase-img">
+          <img src="img/showcase.svg" alt="illustration" />
+        </div>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="container">
+        <!-- <h1>Services I Offer</h1> -->
+        <div class="cards">
+          <div class="card" id="card-1" data-aos="zoom-in-up">
+            <img src="img/coding.png" alt="laptop-coding-icon" />
+            <h1 data-aos="zoom-in-up">Web Development</h1>
+            <p data-aos="zoom-in-up">
+              I work closely with design, product management, and development
+              teams to create elegant, usable, responsive and interactive
+              interfaces across multiple devices.
+            </p>
+          </div>
+          <div class="card card-2" data-aos="zoom-in-up">
+            <img src="img/maintenance.png" alt="maintainance-icon" />
+            <h1 data-aos="zoom-in-up">Web Maintainance</h1>
+            <p data-aos="zoom-in-up">
+              I manage websites to keep it updated and make sure it's running
+              and functional
+            </p>
+          </div>
+          <div class="card card-3" data-aos="zoom-in-up">
+            <img src="img/design.png" alt="design-icon" />
+            <h1 data-aos="zoom-in-up">Web Customization</h1>
+            <p data-aos="zoom-in-up">
+              I customize and update already existing websites to make them have
+              a modern feel and add extra functionalities
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio">
+      <div class="container">
+        <h1 class="works" data-aos="zoom-in-up">Projects</h1>
+        <hr data-aos="zoom-in-up"/>
+        <div class="first-project project">
+          <img data-aos="zoom-in-up"
+            src="img/bookmark-landing-page.png"
+            alt="bookmark-landing-page"
+          />
+          <div class="project-text" data-aos="zoom-in-up">
+            <h1 data-aos="zoom-in-up">Bookmark Landing Page</h1>
+            <p data-aos="zoom-in-up">
+              The website of a software that provides a clean and simple
+              interface to organize your favourite websites. This was built with
+              HTML5, CSS3, Javascript and an animation library called AOS
+            </p>
+            <a href="https://emmah-oo.github.io/bookmark/"
+              ><button class="btn" data-aos="zoom-in-up">Live Site</button></a
+            >
+          </div>
+        </div>
+
+        <div class="second-project project" data-aos="zoom-in-up">
+          <div class="project-text" data-aos="zoom-in-up">
+            <h1 data-aos="zoom-in-up">Manage Landing Page</h1>
+            <p data-aos="zoom-in-up">
+              Manage is a software that help software teams to plan day-to-day
+              tasks while keeping the larger team goals in view. This website
+              was built with HTML5, CSS3, Javascript, swiper.js and an animation
+              library called AOS
+            </p>
+            <a href=" https://emmah-oo.github.io/manage-landing-page/"
+              ><button class="btn" data-aos="zoom-in-up">Live Site</button></a
+            >
+          </div>
+          <img src="img/manage-landing-page.png" alt="manage-landing-page" data-aos="zoom-in-up" />
+        </div>
+
+        <div class="third-project project" data-aos="zoom-in-up">
+          <img src="img/loop-studios.png" alt="loop-studios" data-aos="zoom-in-up" />
+          <div class="project-text" data-aos="zoom-in-up">
+            <h1 data-aos="zoom-in-up">Loopstudio</h1>
+            <p data-aos="zoom-in-up">
+              The is the webpage for a VR company called loopstudios. It was
+              made with HTML5, CSS3, and Javascript
+            </p>
+            <a href="https://emmah-oo.github.io/Loop-Studios/"
+              ><button class="btn" data-aos="zoom-in-up">Live Site</button></a
+            >
+          </div>
+        </div>
+
+        <div class="fourth-project project" data-aos="zoom-in-up">
+          <div class="project-text" data-aos="zoom-in-up">
+            <h1 data-aos="zoom-in-up">Tip Calculator App</h1>
+            <p data-aos="zoom-in-up">
+              This is a tip calculator web app, it has excellent features like
+              allowing users input their bill, select tip percentage, also add a
+              custom tip percentage, input the number of people going to pay the
+              bill, then everything is calculated and the user is shown the tip
+              amount per person and total amount per person. And you can also
+              reset your inputs. This web app was built with HTML5, CSS3, and
+              Javascript
+            </p>
+            <a href="https://emmah-oo.github.io/tip-calculator/"
+              ><button class="btn" data-aos="zoom-in-up">Live Site</button></a
+            >
+          </div>
+          <img src="img/tip-calculator-app.png" alt="tip-calculator-app" data-aos="zoom-in-up"/>
+        </div>
+
+        <div class="fifth-project project" data-aos="zoom-in-up">
+          <img src="img/Insure-landing-page.png" alt="Insure-landing-page" data-aos="zoom-in-up"/>
+          <div class="project-text" data-aos="zoom-in-up">
+            <h1 data-aos="zoom-in-up">Insure Landing Page</h1>
+            <p data-aos="zoom-in-up">
+              This is a website for a Life insurance company called Insure. It
+              was built with HTML5, CSS3, and Javascript
+            </p>
+            <a href="https://emmah-oo.github.io/insure-page/"
+              ><button class="btn" data-aos="zoom-in-up">Live Site</button></a
+            >
+          </div>
+        </div>
+        <hr data-aos="zoom-in-up"/>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <h1 data-aos="zoom-in-up">About Me</h1>
+        <p data-aos="zoom-in-up">
+          Hello I'm Emmanuel Ochonogor, I'm a Frontend Web Developer based in
+          West-Africa, precisely in Nigeria. I'm 19 years old, I have a passion
+          for Computer Science as a whole, I wrote my first piece of code back
+          in 2016 and since then I developed a passion for programming, I moved
+          fully into Web Dev last year, I have hunger for knowledge and I'm
+          determined to work with anyone no matter where you're from. So if you
+          have a project in mind, or you need extra web developers on your team,
+          then you can contact me. I'm open to work with UI/UX designers, Web
+          developers or if you have an idea in my mind, you can contact me so we
+          can work together
+        </p>
+
+        <div class="button" data-aos="zoom-in-up">
+          <button class="btn">Contact Me</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <h1 data-aos="zoom-in-up">
+          Lets's Make Something Together <br />
+          Start By Saying Hi
+        </h1>
+        <form action="POST" method="POST" data-netlify="true" data-aos="zoom-in-up">
+          <input
+            name="name"
+            type="text"
+            class="feedback-input"
+            placeholder="Name"
+            required
+            data-aos="zoom-in-up"
+          />
+          <input
+            name="email"
+            type="text"
+            class="feedback-input"
+            placeholder="Email"
+            required
+            data-aos="zoom-in-up"
+          />
+          <textarea
+            name="text"
+            class="feedback-input"
+            placeholder="Message"
+            required
+            data-aos="zoom-in-up"
+          ></textarea>
+          <div class="button">
+            <button class="btn" type="submit">Submit</button>
+          </div>
+        </form>
+      </div>
+
+      <h2 data-aos="zoom-in-up">You can also reach me through</h1>
+      <div class="social-links">
+        <a href="https://twitter.com/dev_emmah"
+          ><i class="bx bxl-twitter bx-burst-hover" data-aos="zoom-in-up"></i
+        ></a>
+        <a href="https://www.instagram.com/emmah_oo/"
+          ><i class="bx bxl-instagram bx-burst-hover" data-aos="zoom-in-up"></i
+        ></a>
+        <a href="https://github.com/Emmah-oo"
+          ><i class="bx bxl-github bx-burst-hover" data-aos="zoom-in-up"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/emma-ochonogor-a25113234/">
+          <i class="bx bxl-linkedin-square bx-burst-hover" data-aos="zoom-in-up"></i>
+        </a>
+      </div>
+    </section>
+
+    <footer>
+      <div class="copyright">
+        <h2>&copy | 2022 dev.Emmah</h2>
+      </div>  
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        offset: 100,
+        delay: 0,
+        duration: 1000,
+      });
+    </script>
+    <script src="app.js"></script>
+  </body>
+</html>
