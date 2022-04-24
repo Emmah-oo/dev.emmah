@@ -42,7 +42,7 @@ nav {
   position: fixed;
   top: 0;
   left: 0;
-  height: 10%;
+  height: 8%;
   width: 100%;
   background-color: #fff;
   padding: 0 7.5%;
@@ -210,7 +210,7 @@ nav .nav-links .btn {
 
 .card p {
   margin-top: 1rem;
-  color: #8d8daa;
+  color: #dfdfe9;
 }
 
 .card img {
@@ -291,6 +291,7 @@ nav .nav-links .btn {
 #about p {
   margin-top: 1rem;
   letter-spacing: 1.5px;
+  text-align: left;
 }
 
 .button {
@@ -374,7 +375,7 @@ footer {
   text-align: center;
 }
 
-.copyright h2{
+.copyright h2 {
   font-size: 1rem;
   color: #082032;
 }
@@ -466,7 +467,7 @@ footer {
 @media (max-width: 720px) {
   .logo {
     position: absolute;
-    top: 30%;
+    top: 20%;
     left: 10%;
     color: #082032;
     z-index: 1;
@@ -478,21 +479,21 @@ footer {
 
   .nav-links {
     position: fixed;
-    top: 57px;
+    top: 60px;
     left: 0;
     height: 100vh;
     width: 100vw;
     flex-direction: column;
     justify-content: flex-start;
-    backdrop-filter: blur(30px); 
+    backdrop-filter: blur(30px);
     background-color: transparent;
     transform: translateX(100%);
-    transition: all .3s ease;
+    transition: all 0.3s ease;
   }
 
   .active {
     transform: translateX(0);
-    transition: all .3s ease;
+    transition: all 0.3s ease;
   }
 
   .nav-links li a {
@@ -506,19 +507,18 @@ footer {
 
   .toggle .line-1 {
     transform: rotate(-43deg) translate(-8px, 7px);
-    transition: transform .3s ease;
+    transition: transform 0.3s ease;
   }
 
   .toggle .line-2 {
     transform: translateX(1000%);
-    transition: transform .3s ease;
+    transition: transform 0.3s ease;
   }
 
   .toggle .line-3 {
     transform: rotate(41deg) translate(-4px, -4px);
-    transition: transform .3s ease;
+    transition: transform 0.3s ease;
   }
-
 
   nav .nav-links .btn {
     display: block;
@@ -532,7 +532,7 @@ footer {
   .burger {
     display: block;
     position: absolute;
-    top: 30%;
+    top: 20%;
     right: 10%;
   }
 
