@@ -467,7 +467,7 @@ footer {
 @media (max-width: 720px) {
   .logo {
     position: absolute;
-    top: 25%;
+    top: 22%;
     left: 10%;
     color: #082032;
     z-index: 1;
@@ -532,7 +532,7 @@ footer {
   .burger {
     display: block;
     position: absolute;
-    top: 25%;
+    top: 22%;
     right: 10%;
   }
 
