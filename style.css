@@ -7,6 +7,8 @@
   box-sizing: border-box;
 }
 
+
+
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -18,10 +20,12 @@ html {
 a {
   color: #fff;
   text-decoration: none;
+  outline: none;
 }
 
 a:active {
   color: #fff;
+  outline: none;
 }
 
 .container {
