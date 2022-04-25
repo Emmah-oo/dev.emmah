@@ -7,8 +7,6 @@
   box-sizing: border-box;
 }
 
-
-
 body {
   font-family: "Roboto", sans-serif;
 }
@@ -42,14 +40,13 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 5rem;
   position: fixed;
   top: 0;
   left: 0;
-  height: 8%;
+  height: auto;
   width: 100%;
   background-color: #fff;
-  padding: 0 7.5%;
+  padding: 1rem 7.5%;
   z-index: 1;
 }
 
@@ -279,6 +276,7 @@ nav .nav-links .btn {
   padding: 0.8rem 2rem;
   border: none;
   margin-top: 1rem;
+  align-self: center;
 }
 
 #portfolio .btn:active {
@@ -477,6 +475,10 @@ footer {
     z-index: 1;
   }
 
+  nav {
+    padding: 1.8rem 0;
+  }
+
   .clicked-link {
     transform: translateX(100%);
   }
@@ -622,5 +624,17 @@ footer {
 
   #services h1 {
     font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 950px) and (orientation: landscape) {
+  #showcase {
+    padding-top: 2rem;
+  }
+}
+
+@media (max-width: 740px) and (orientation: landscape) {
+  #showcase {
+    padding-top: 4rem;
   }
 }
