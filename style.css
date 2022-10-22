@@ -22,7 +22,6 @@ a {
 }
 
 a:active {
-  color: #fff;
   outline: none;
 }
 
@@ -82,10 +81,10 @@ nav .nav-links .btn {
   transition: all 0.3s ease;
 }
 
-.btn:hover {
+/* .btn:hover {
   background-color: #fff;
   color: #f07b3f;
-}
+} */
 
 .nav-links li:hover {
   opacity: 0.7;
