@@ -448,7 +448,6 @@ footer {
 
   .showcase-text h1 {
     margin-top: 0;
-    font-size: 2.5rem;
   }
 
   .showcase-img img {
@@ -487,14 +486,15 @@ footer {
 
   .nav-links {
     position: fixed;
-    top: 60px;
+    top: 57px;
     left: 0;
     height: 100vh;
     width: 100vw;
+    padding-top: 3rem;
     flex-direction: column;
     justify-content: flex-start;
     backdrop-filter: blur(30px);
-    background-color: transparent;
+    background-color: black;
     transform: translateX(100%);
     transition: all 0.3s ease;
   }
