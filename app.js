@@ -30,4 +30,3 @@ tl.fromTo("body", { opacity: 0 }, { opacity: 1, duration: 1 });
 tl.fromTo(".text", { opacity: 0 }, { opacity: 1, duration: 1, stagger: 0.25 });
 tl.fromTo(".showcase-img", { x : 30, opacity: 0 }, { x : 0, opacity: 1, duration: 1 });
 tl.fromTo(".contact", { opacity: 0 }, { opacity: 1, duration: 1,}, "-=.7")
-tl.fromTo(".social-links", { y:100, opacity: 0 }, { y:0, opacity: 1, duration: 1,}, "-=.7")
